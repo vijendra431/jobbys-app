@@ -7,7 +7,7 @@ import { BsBriefcaseFill } from 'react-icons/bs'
 import { FiExternalLink } from 'react-icons/fi'
 import { useParams } from 'react-router-dom'
 import Header from '../Header'
-import {Link} from 'react-router-dom'
+
 import './index.css'
 
 const activeApiStatus = {
