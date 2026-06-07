@@ -1,0 +1,109 @@
+.job-link {
+  text-decoration: none;
+}
+
+.job-item {
+  background-color: #1c1c2e;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  list-style: none;
+  border: 1px solid #2d2d44;
+  transition: transform 0.2s;
+  width: 50vw;
+  margin-top: 20px;
+}
+
+.job-item:hover {
+  transform: translateY(-2px);
+  border-color: #6366f1;
+}
+
+.job-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.job-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star-icon {
+  color: #f59e0b;
+  font-size: 18px;
+}
+
+.rating {
+  color: #ffffff;
+  margin: 0;
+}
+
+.job-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.location-type {
+  display: flex;
+  gap: 16px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.job-icon {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.job-text {
+  color: #ffffff;
+  margin: 0;
+  font-size: 14px;
+}
+
+.package {
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0;
+}
+
+.job-divider {
+  border-color: #2d2d44;
+  margin: 12px 0;
+}
+
+.desc-heading {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.job-description {
+  color: #94a3b8;
+  font-size: 14px;
+  line-height: 1.6;
+}
